@@ -1,0 +1,12 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+SWITCH_DEVICE_TYPE = os.getenv("SWITCH_DEVICE_TYPE")
+SWITCH_HOST = os.getenv("SWITCH_HOST")
+SWITCH_USERNAME = os.getenv("SWITCH_USERNAME")
+SWITCH_PASSWORD = os.getenv("SWITCH_PASSWORD")
+
+NETWORK_MAP_FILENAME = os.getenv("NETWORK_MAP_FILENAME")
+NETWORK_MAP_INCLUDE_HEADERS = os.getenv("NETWORK_MAP_INCLUDE_HEADERS", False)
