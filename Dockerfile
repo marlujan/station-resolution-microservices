@@ -9,6 +9,7 @@ COPY uwsgi.ini /opt/uwsgi.ini
 WORKDIR /opt/web_application
 
 RUN pipenv install
+RUN git clone https://github.com/networktocode/ntc-templates.git ~/ntc-templates
 
 ENTRYPOINT uwsgi /opt/uwsgi.ini -H $(pipenv --venv)
 

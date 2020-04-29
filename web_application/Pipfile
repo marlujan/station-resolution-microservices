@@ -10,7 +10,6 @@ flask = "*"
 python-dotenv = "*"
 netmiko = "*"
 pandas = "*"
-ntc-templates = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ce79bd4c58c6671cfcc660410c8320dee61a2074e5dda4f0a319c189a939777f"
+            "sha256": "cc2ca2eb5fc799b532614330658f00490608e676731b8b19147b7da125dc56b8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -177,14 +177,6 @@
             "index": "pypi",
             "version": "==3.1.0"
         },
-        "ntc-templates": {
-            "hashes": [
-                "sha256:309fd9513301ff4855e75700b812095842e5dcad649aea8c44d391e3a4748e5a",
-                "sha256:d04f859f3db2abbb1b594b4507b14551ea5d1a7724b9f4f5843326c4277f5382"
-            ],
-            "index": "pypi",
-            "version": "==1.4.1"
-        },
         "numpy": {
             "hashes": [
                 "sha256:0aa2b318cf81eb1693fcfcbb8007e95e231d7e1aa24288137f3b19905736c3ee",
@@ -315,12 +307,6 @@
                 "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
             ],
             "version": "==1.14.0"
-        },
-        "terminal": {
-            "hashes": [
-                "sha256:29a1696ed4696a9c3e501076245c85a3789548db708bb2bd174dcc49f2b585c2"
-            ],
-            "version": "==0.4.0"
         },
         "textfsm": {
             "hashes": [
