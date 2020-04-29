@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cc2ca2eb5fc799b532614330658f00490608e676731b8b19147b7da125dc56b8"
+            "sha256": "ce79bd4c58c6671cfcc660410c8320dee61a2074e5dda4f0a319c189a939777f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -74,10 +74,10 @@
         },
         "click": {
             "hashes": [
-                "sha256:8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc",
-                "sha256:e345d143d80bf5ee7534056164e5e112ea5e22716bbb1ce727941f4c8b471b9a"
+                "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
+                "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
             ],
-            "version": "==7.1.1"
+            "version": "==7.1.2"
         },
         "cryptography": {
             "hashes": [
@@ -176,6 +176,14 @@
             ],
             "index": "pypi",
             "version": "==3.1.0"
+        },
+        "ntc-templates": {
+            "hashes": [
+                "sha256:309fd9513301ff4855e75700b812095842e5dcad649aea8c44d391e3a4748e5a",
+                "sha256:d04f859f3db2abbb1b594b4507b14551ea5d1a7724b9f4f5843326c4277f5382"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
         },
         "numpy": {
             "hashes": [
@@ -289,10 +297,10 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d",
-                "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
+                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
-            "version": "==2019.3"
+            "version": "==2020.1"
         },
         "scp": {
             "hashes": [
@@ -307,6 +315,12 @@
                 "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
             ],
             "version": "==1.14.0"
+        },
+        "terminal": {
+            "hashes": [
+                "sha256:29a1696ed4696a9c3e501076245c85a3789548db708bb2bd174dcc49f2b585c2"
+            ],
+            "version": "==0.4.0"
         },
         "textfsm": {
             "hashes": [
