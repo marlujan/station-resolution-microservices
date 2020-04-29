@@ -12,15 +12,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return jsonify(dict(
+    return jsonify(
         name='Station and Port Tracker',
         version='0.1'
-    ))
+    )
 
 
 @app.route('/heartbeat')
 def get_heartbeat():
-    return jsonify(dict( alive=True ))
+    return jsonify(alive=True)
 
 
 @app.route('/station/associations', methods=['GET'])

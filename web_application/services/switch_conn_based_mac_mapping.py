@@ -1,3 +1,5 @@
+from netmiko import Netmiko
+
 from environment import (SWITCH_DEVICE_TYPE, SWITCH_HOST,
                          SWITCH_USERNAME, SWITCH_PASSWORD)
 
@@ -11,18 +13,18 @@ cisco_conf = {
 
 class SwitchMacAddressTable:
     def __init__(self):
-        self.__switch_mac_address_map = [
-            {
-                'destination_address': '0011.5ccc.5c00',
-                'destination_port': 'GigabitEthernet1/0/31'
-            },
-            {
-                'destination_address': '0025.2266.d104',
-                'destination_port': 'GigabitEthernet1/0/38'
-            }
-        ]
-
-    """
+        """
+            self.__switch_mac_address_map = [
+                {
+                    'destination_address': '0011.5ccc.5c00',
+                    'destination_port': 'GigabitEthernet1/0/31'
+                },
+                {
+                    'destination_address': '0025.2266.d104',
+                    'destination_port': 'GigabitEthernet1/0/38'
+                }
+            ]
+        """
         net_connect = Netmiko(**cisco_conf)
 
         self.__switch_mac_address_map = net_connect.send_command(
@@ -30,7 +32,6 @@ class SwitchMacAddressTable:
         )
 
         net_connect.disconnect()
-    """
 
     def get_associations(self):
         return self.__switch_mac_address_map
